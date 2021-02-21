@@ -5,7 +5,24 @@ module.exports = {
    //   assetsDir: "./"
    //   asset 파일 위치 설정 
    assetsDir: 'assets',
-   publicPath: './',
-   productionSourceMap: false,
-   transpileDependencies: [/node_modules[/\\\\]bootstrap[/\\\\]/],
+   publicPath: process.env.NODE_ENV === 'production'
+    ? '/doit/'
+    : '/',
+//    productionSourceMap: false,
+// //    transpileDependencies: [/node_modules[/\\\\]bootstrap[/\\\\]/],
+//     chainWebpack: config => {
+//     config.output.chunkFilename('[name].[chunkhash].js')
+//     config.plugins.delete('prefetch')
+//   },
+  productionSourceMap: false,
+  configureWebpack: {
+    module: {
+      rules: [
+        {
+          include: path.resolve('node_modules', 'bootstrap-vue'),
+          sideEffects: false
+        }
+      ]
+    }
+  }
 }
