@@ -31,10 +31,6 @@
     </ContentBox>
   </div>
 </template>
-<style>
-.movie .listcon .listdetail strong{color:#7952b3}
-.movie  .listbtns > .btn{background-color:#7952b3;}
-</style>
 <script>
 import pageBtn from "../../components/pageBtn.vue"
 import ContentBox from "../../components/ContentBox.vue"

@@ -44,8 +44,6 @@
     </ContentBox>
   </div>
 </template>
-<style>
-</style>
 <script>
 import pageBtn from "../../components/pageBtn.vue"
 import ContentBox from "../../components/ContentBox.vue"

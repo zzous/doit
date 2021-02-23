@@ -1,7 +1,7 @@
 <template>
   <div class="subpage">
     <ContentBox>
-      <subpageTitle :thispage="'도서'"/>
+      <subpageTitle :thispage="'도서'" :pageguide="''" />
       <!-- <div class="listbox">
         <b-button variant="text-line on">HTML/CSS</b-button>
         <b-button variant="text-line">JAVASCRIPT</b-button>

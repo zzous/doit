@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header :class="Topclass">
 		<div class="topmenu">
 			<ContentBox>
 				<div class="logo">
@@ -13,7 +13,7 @@
 				</div>
 		  </ContentBox>
     </div>
-		<nav>
+		<nav> 
 			<div class="content-box">
 				<ul>
           <li v-for="(item, index) in menus" :key="index">
@@ -72,8 +72,7 @@
             </li>
             <li>
               <label for="pass"><i class="bi bi-tag" />관심 분야 선택</label>
-              <b-form-checkbox-group 
-                v-model="selected1"
+              <b-form-checkbox-group
                 :options="options1"
                 class="radiobox"
               />
@@ -87,48 +86,67 @@
         </div>
       </div>
     </b-modal>
+    
 	</header>
 </template>
 <script>
-import ContentBox from "../../../components/ContentBox.vue"
-import pageBtn from "../../../components/pageBtn.vue"
-export default {
-  components:{
-    ContentBox,
-    pageBtn
-  },
-  data(){
-    return{
-      menus:[
-        {menutext:'도서', link:'/book'},
-        {menutext:'자료실', link:'/reference'},
-        {menutext:'동영상강의', link:'/movieclass'},
-        {menutext:'교재샘플', link:'/classsample'},
-        {menutext:'회사소개', link:'/company'},
-      ],
-      selected:"Y",
-      options:[
-        {text:"예", value:"Y"},
-        {text:"아니오", value:"N"},
-      ],
-      selected1:"Y",
-      options1:[
-        {text:"HTML/CSS", value:"html"},
-        {text:"자바스크립트", value:"javascript"},
-        {text:"파이썬", value:"python"},
-        {text:"Vue.js", value:"vue"},
-        {text:"앵귤러", value:"angular"},
-        {text:"리액트", value:"react"},
-        {text:"자료구조/알고리즘", value:"data"},
-        {text:"오토캐드", value:"cad"},
-      ]
+  import ContentBox from "../../../components/ContentBox.vue"
+  import pageBtn from "../../../components/pageBtn.vue"
+  export default {
+    components:{
+      ContentBox,
+      pageBtn
+    },
+    data(){
+      return{
+        menus:[
+          {menutext:'도서', link:'/book'},
+          {menutext:'자료실', link:'/reference'},
+          {menutext:'동영상강의', link:'/movieclass'},
+          {menutext:'교재샘플', link:'/classsample'},
+          {menutext:'회사소개', link:'/company'},
+        ],
+        selected:"Y",
+        options:[
+          {text:"예", value:"Y"},
+          {text:"아니오", value:"N"},
+        ],
+        selected1:['html'],
+        options1:[
+          {text:"HTML/CSS", value:'html'},
+          {text:"자바스크립트", value:"javascript"},
+          {text:"파이썬", value:"python"},
+          {text:"Vue.js", value:"vue"},
+          {text:"앵귤러", value:"angular"},
+          {text:"리액트", value:"react"},
+          {text:"자료구조/알고리즘", value:"data"},
+          {text:"오토캐드", value:"cad"},
+        ],
+        Topclass:"",
+        ScTop:0
+      }
+    },
+    mounted() {
+      window.addEventListener('scroll', this.handleScroll)
+    },
+    beforeDestory() {
+      window.removeEventListener('scroll', this.handleScroll)
+    },
+    created () {
+      window.addEventListener('scroll', this.handleScroll);
+    },
+    methods: {
+      //스크롤 동작 
+      handleScroll(){
+        const scrollTop = window.pageYOffset
+        const headerTop =document.querySelector('header').clientHeight
+        if(scrollTop<headerTop){
+          this.Topclass=""
+        }else{
+          //console.log('down')
+          this.Topclass="scrollTop"
+        }
+      },
     }
-  },
-}
+  }
 </script>
-<style>
-
-
-
-</style>
-

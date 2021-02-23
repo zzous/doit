@@ -16,7 +16,7 @@
           <img src="/images/footer-logo.png" />
         </div>
         <div class="footer-info">
-          <address>서울시 강남구 역삼동 464-5 쇼핑몰 Tel 02-1234-12345</address>
+          <address>서울시 강남구 역삼동 464-5 쇼핑몰 <span>Tel 02-1234-12345</span></address>
           <span>Email email@email.com</span>
           <p>
           통신판매업 신고 : 2020-서울강남-001234

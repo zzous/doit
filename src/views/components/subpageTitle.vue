@@ -7,7 +7,7 @@
       <span><i class="bi bi-slash"></i>{{thispage}}</span>
     </div>
   </div>
-  <div class="subpageguide" v-if="thispage.length > 0">
+  <div class="subpageguide" v-if="pageguide.length > 0">
     {{pageguide}}
   </div>
 </div>

@@ -21,7 +21,7 @@
           </section>
         </div>
         <section class="new">
-          <h1 class="pdttitle">New Arrivals<span>새로 입고된 도서를 소개합니다.</span></h1>
+          <h1 class="pdttitle">새로 나온 도서<span>새로 입고된 도서를 소개합니다.</span></h1>
           <slickcontent :datas="newbooks" :settings="settings" />
         </section>
       </ContentBox>
