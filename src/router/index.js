@@ -4,7 +4,6 @@ import pageRouter from "./modules/pageRouter"
 Vue.use(VueRouter);
 
 
-
 const constantRoutes = [
 	{
 		path: "/",

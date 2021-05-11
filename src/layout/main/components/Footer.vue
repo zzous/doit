@@ -26,3 +26,6 @@
     </div>
 	</footer>
 </template>
+<style>
+#wrap{display:flex; flex-direction:column; height:100%;}
+</style>
