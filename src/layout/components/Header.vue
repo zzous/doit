@@ -148,11 +148,12 @@ export default {
     },
     handleScroll(){
       const scrollTop = window.pageYOffset
-      const headerTop =document.querySelector('header').clientHeight
-      if(scrollTop<headerTop){
-        this.Topclass=""
-      }else{
+      const headerTop =document.querySelector('.topmemu').clientHeight
+      console.log(scrollTop, headerTop)
+      if(scrollTop >= 50){
         this.Topclass="scrollTop"
+      }else{
+        this.Topclass=""
       }
     },
   }

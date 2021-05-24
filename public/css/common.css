@@ -100,10 +100,12 @@ footer{margin-top:auto;position:relative}
 .footer-logo, .footer-sub{position:relative; z-index:3}
 .footer-logo img{width:125px;}
 .footer-sub{flex:1; padding-left:20px; font-size:12px;}
-.scrollTop{width: 100%;position: fixed;left: 0;top: 0;z-index: 9999;}
+.scrollTop{width: 100%;position: fixed;left: 0;top: 0;z-index: 9999;transition-duration: .3s;}
 .scrollTop .topmemu{display:none}
+header { height: 50px;}
 header.scrollTop:after {position: fixed;top:22px}
 #container{flex:0 0 auto}
+.scrollTop + #container{padding-top: 50px;}
 @media screen and (max-width: 767px){
 	.system > button{width:25px; height:25px; font-size:0}
 	.system > button:before{display:none}
