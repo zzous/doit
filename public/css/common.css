@@ -345,7 +345,9 @@ header.scrollTop:after {position: fixed;top:22px}
 .classsample .form-group > div{flex:1 1 0}
 .classsample .form-group  input.form-control{height:30px}
 .classsample .form-group small{font-size:14px; margin-top:5px;}
-
+@media screen and (max-width: 767px){
+.classsample .form-group{display: block;}
+}
 
 /* 도서소개 */
 .introcon{background:url('/images/main_ico2.png') no-repeat right 10px/190px}
