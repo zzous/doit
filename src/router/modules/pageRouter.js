@@ -1,45 +1,45 @@
+const withPrefix = (prefix, routes) => routes.map(route => {
+  route.path = prefix + route.path;
+  return route;
+});
 const pageRouter = 	{ 
-	path:"/",
+  path:"/",
 	name:"layout",
-	component:()=>import("@/layout/main/index.vue"),
+  redirect: "/main",
+	component:()=>import("@/layout/index.vue"),
 	children: [
 		{
-			path: "/",
-			redirect: "/main",
-		},
-		{
-			path: "/main",
-			name:"main",
-			component: () => import("@/views/main/index.vue"),
-		},
-		{
-			path: "/book",
-			name:"book",
-			component: () => import("@/views/subpage/book.vue"),
-		},
-		{
-			path: "/reference",
-			name:"reference",
-			component: () => import("@/views/subpage/reference.vue"),
-		},
-		{
-			path: "/movieclass",
-			name:"movieclass",
-			component: () => import("@/views/subpage/movieclass.vue"),
-		},
-		{
-			path: "/classsample",
-			name:"classsample",
-			component: () => import("@/views/subpage/classsample.vue"),
-		},
-		{
-			path: "/company",
-			name:"company",
-			component: () => import("@/views/subpage/company.vue"),
-		}
-		
-		
-	],
+      path:"/main",
+      name:"main",
+      component: () => import("@/views/main/index.vue"),
+    },
+    ...withPrefix('/book', [
+      {
+        path:"/",
+        component: () => import("@/views/Book.vue"),
+      }, {
+        name: 'book',
+        path: '/book:tabId',
+        component:()=>import("@/views/Book.vue")
+      }
+    ]),
+    {
+      path:"/reference",
+      name:"reference",
+      component: () => import("@/views/reference.vue"),
+    },{
+      path:"/movieclass",
+      name:"movieclass",
+      component: () => import("@/views/movieclass.vue"),
+    },{
+      path:"/classsample",
+      name:"classsample",
+      component: () => import("@/views/classsample.vue"),
+    },{
+      path:"/company",
+      name:"/company",
+      component: () => import("@/views/company.vue"),
+    }
+	]	
 }
-
 export default pageRouter;
