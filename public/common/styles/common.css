@@ -360,3 +360,13 @@ textarea.form-control{min-height:80px;}
   .introbox strong{font-size:18px}
   .introbox br{display:none}
 }
+
+.classsample .form-group .d-block:before{margin-top:-2px}
+.classsample .form-group:nth-of-type(1) .d-block:before{content:"\f193"}
+.classsample .form-group:nth-of-type(2) .d-block:before{content:"\f19e"}
+.classsample .form-group:nth-of-type(3) .d-block:before{content:"\f398"}
+.classsample .form-group:nth-of-type(4) .d-block:before{content:"\f386"}
+.classsample .form-group:nth-of-type(5) .d-block:before{content:"\f402"}
+.classsample .form-group:nth-of-type(6) .d-block:before{content:"\f30c"}
+.classsample .form-group:nth-of-type(7) .d-block:before{content:"\f24c"}
+.classsample .form-group:nth-of-type(8) .d-block:before{content:"\f40d"}
