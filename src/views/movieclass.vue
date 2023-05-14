@@ -21,20 +21,20 @@ export default {
     return{
       lists:[
         {
-          img:'/images/t03.jpg',
-          title:'Do it! 실습 파일과 학습 파일 내려받기', 
-          date:'2019.04.15' , 
-          dec:'책을 다 공부한 독자를 위한 실전 프로젝트입니다.<br /> 웹 사이트에서 자주 사용하는 "이미지 슬라이드 쇼" 프로그램을 만드는 방법을 단계별로 공부할 수 있습니다', 
-          link1:'',
-          link:'' 
+          img:'/images/books_image/book03.jpg',
+          title:'Do it! C# 프로그래밍 입문', 
+          date:'2022.10.18' , 
+          dec:'채널에 접속하시면 전체 강의를 볼 수 있습니다. (출간 후 차례로 업데이트 예정)', 
+          link1:'https://www.youtube.com/playlist?list=PLHUVRivHVlixV3NeI0ChOilmjHhJ_3P0I',
+          link:'https://www.youtube.com/playlist?list=PLHUVRivHVlixV3NeI0ChOilmjHhJ_3P0I' 
         },
         {
-          img:'/images/t03.jpg',
-          title:'Do it! 실습 파일과 학습 파일 내려받기', 
-          date:'2019.04.15' , 
-          dec:'책을 다 공부한 독자를 위한 실전 프로젝트입니다.<br /> 웹 사이트에서 자주 사용하는 "이미지 슬라이드 쇼" 프로그램을 만드는 방법을 단계별로 공부할 수 있습니다', 
-          link1:'',
-          link:'' 
+          img:'/images/books_image/book27.jpg',
+          title:'Do it! 깡샘의 플러터 & 다트 프로그래밍', 
+          date:'2023.02.08' , 
+          dec:'본 강의는 무료와 유료 버전으로 구분되며 출간 후 순차적으로 업데이트 예정입니다.', 
+          link1:'https://bit.ly/3XjRGN4',
+          link:'https://bit.ly/3XjRGN4' 
         }
       ]
     }

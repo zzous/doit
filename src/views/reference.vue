@@ -18,26 +18,23 @@ export default {
     return{
       lists:[
         {
-          img:'/images/t03.jpg',
-          title:'Do it! 실습 파일과 학습 파일 내려받기', 
-          date:'2019.04.15' , 
-          dec:'책을 다 공부한 독자를 위한 실전 프로젝트입니다.<br /> 웹 사이트에서 자주 사용하는 "이미지 슬라이드 쇼" 프로그램을 만드는 방법을 단계별로 공부할 수 있습니다', 
-          link1:'',
-          link:'' 
+          img:'/images/books_image/book01.jpg',
+          title:'Do it! 웹사이트 따라 만들기 실습 파일 내려받기', 
+          date:'2019.11.30' , 
+          dec:'독자를 위한 실전 프로젝트입니다.<br /> 단계별로 공부할 수 있습니다', 
+          link1:'https://drive.google.com/drive/folders/1rlcNe6tZR6m2coR9WKTyRse2qhQBxq83',
+          link:'https://drive.google.com/drive/folders/1rlcNe6tZR6m2coR9WKTyRse2qhQBxq83' 
         },
         {
-          img:'/images/t03.jpg',
-          title:'Do it! 실습 파일과 학습 파일 내려받기', 
+          img:'/images/books_image/book28.jpg',
+          title:'Do it! HTML+CSS+자바스크립트 웹 표준의 정석 실습 파일과 학습 파일 내려받기', 
           date:'2019.04.15' , 
-          dec:'책을 다 공부한 독자를 위한 실전 프로젝트입니다.<br /> 웹 사이트에서 자주 사용하는 "이미지 슬라이드 쇼" 프로그램을 만드는 방법을 단계별로 공부할 수 있습니다', 
-          link1:'',
-          link:'' 
+          dec:'본문 전체의 예제소스 파일입니다.', 
+          link1:'https://drive.google.com/file/d/1piPD2RGEgzhHL416AjhQdNBNDLwS5bW-/view',
+          link:'https://drive.google.com/file/d/1piPD2RGEgzhHL416AjhQdNBNDLwS5bW-/view' 
         }
       ]
     }
   }
 }
 </script>
-<style>
-
-</style>
