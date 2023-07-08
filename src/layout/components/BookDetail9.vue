@@ -32,7 +32,7 @@
         </div>
         <template v-if="tapselect=='introduce'">
           <div class="detailTapCon">
-            <h1 class="tapcontit"><strong>"된다! 아이패드 하루 24시간"</strong>를 소개 합니다.</h1>
+            <h1 class="tapcontit"><strong>"된다! 아이패드 하루 24시간"</strong>를 소개합니다.</h1>
             <p>
                 <strong>아이패드로 하루 24시간, 365일을 알차게 보내는 방법!<br>삶의 질이 좋아지는 요모조모 아이패드 활용법을 전부 담았다!</strong><br><br>
 

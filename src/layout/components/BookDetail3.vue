@@ -32,7 +32,7 @@
         </div>
         <template v-if="tapselect=='introduce'">
           <div class="detailTapCon">
-            <h1 class="tapcontit"><strong>"Do it! C# 프로그래밍 입문"</strong>를 소개 합니다.</h1>
+            <h1 class="tapcontit"><strong>"Do it! C# 프로그래밍 입문"</strong>를 소개합니다.</h1>
             <p>
               <strong> C#에 빠르게 입문하는 지름길<br>
                 기본 문법부터 유니티 게임과 아두이노 응용까지!<br><br>

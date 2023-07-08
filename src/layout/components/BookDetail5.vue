@@ -32,7 +32,7 @@
         </div>
         <template v-if="tapselect=='introduce'">
           <div class="detailTapCon">
-            <h1 class="tapcontit"><strong>"Do it! SQL 입문"</strong>를 소개 합니다.</h1>
+            <h1 class="tapcontit"><strong>"Do it! SQL 입문"</strong>를 소개합니다.</h1>
             <p>
               <strong> 굵직한 글로벌 기업의 현직 데이터베이스 전문가가 20년간의 기업 실무와 강의 경험을 아낌없이 담았다!<br><br></strong>
 

@@ -32,7 +32,7 @@
         </div>
         <template v-if="tapselect=='introduce'">
           <div class="detailTapCon">
-            <h1 class="tapcontit"><strong>"된다! 엑셀 수식 & 함수"</strong>를 소개 합니다.</h1>
+            <h1 class="tapcontit"><strong>"된다! 엑셀 수식 & 함수"</strong>를 소개합니다.</h1>
             <p>
               <strong>복잡한 수식의 원리부터 함수 설명까지!<br>대충 쓰던 엑셀, 이 책 한 권만 보면 실력자 된다!<br>109가지 실무 예제와 함께 배우는 엑셀웍스의 명품 강의를 책으로!<br><br></strong>
 

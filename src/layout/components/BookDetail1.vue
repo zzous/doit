@@ -34,7 +34,7 @@
       </div>
       <template v-if="tapselect=='introduce'">
         <div class="detailTapCon">
-          <h1 class="tapcontit"><strong>"{{bookname}}"</strong>를 소개 합니다.</h1>
+          <h1 class="tapcontit"><strong>"{{bookname}}"</strong>를 소개합니다.</h1>
           <p>
             웹 어워드 코리아에서 대상, 최우수상을 수상한 현직 웹 퍼블리셔의 작업방식 그대로<br />
             웹사이트 하나 통째로 만들면 나도 어느새 웹 퍼블리셔!!<br />

@@ -32,7 +32,7 @@
         </div>
         <template v-if="tapselect=='introduce'">
           <div class="detailTapCon">
-            <h1 class="tapcontit"><strong>"Do it! 클론 코딩 줌"</strong>를 소개 합니다.</h1>
+            <h1 class="tapcontit"><strong>"Do it! 클론 코딩 줌"</strong>를 소개합니다.</h1>
             <p>
               <strong> 똑같이 만들어 보는 것만큼 초보자에게 <br >효과적인 학습법은 없다! 왜냐면 클론 코딩은 "진짜"를 만드니까!<br><br></strong>
 

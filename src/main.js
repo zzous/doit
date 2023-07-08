@@ -1,13 +1,8 @@
-import '@babel/polyfill'
-import 'core-js/stable'
-import 'regenerator-runtime/runtime'
-import App from './App.vue'
 import Vue from 'vue'
+import App from './App.vue'
 import router from './router';
-import BootstrapVue from 'bootstrap-vue'
-import VueSlickCarousel from 'vue-slick-carousel'
-Vue.component('VueSlickCarousel', VueSlickCarousel);
-Vue.use(BootstrapVue)
+import './common/plugins/bootstrap-vue'
+import './common/plugins/vue-slick'
 Vue.config.productionTip = false
 
 

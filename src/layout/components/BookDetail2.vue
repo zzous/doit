@@ -32,7 +32,7 @@
       </div>
       <template v-if="tapselect=='introduce'">
         <div class="detailTapCon">
-          <h1 class="tapcontit"><strong>"{{bookname}}"</strong>를 소개 합니다.</h1>
+          <h1 class="tapcontit"><strong>"{{bookname}}"</strong>를 소개합니다.</h1>
           <p>
             <strong>160가지 그림과 스토리텔링으로 이해한다!<br>
             자료구조부터 보안, 인공지능까지 최신 알고리즘 총망라!<br><br>

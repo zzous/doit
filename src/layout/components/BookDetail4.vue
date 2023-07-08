@@ -32,7 +32,7 @@
         </div>
         <template v-if="tapselect=='introduce'">
           <div class="detailTapCon">
-            <h1 class="tapcontit"><strong>"IT 5분 잡학사전"</strong>를 소개 합니다.</h1>
+            <h1 class="tapcontit"><strong>"IT 5분 잡학사전"</strong>를 소개합니다.</h1>
             <p>
               <strong>  “개발자는 다 맥북을 써야 하나?”와 같은 사소한 질문부터 “서버가 대체 뭔지?”까지~♬<br > 전공자와 비전공자 모두 알고 싶어 하는 질문을 5분 안에 해결해 주는 IT 잡학사전이 나왔다!<br><br></strong>
 

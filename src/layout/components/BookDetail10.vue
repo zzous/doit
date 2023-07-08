@@ -32,7 +32,7 @@
         </div>
         <template v-if="tapselect=='introduce'">
           <div class="detailTapCon">
-            <h1 class="tapcontit"><strong>"블록체인 무엇인가?"</strong>를 소개 합니다.</h1>
+            <h1 class="tapcontit"><strong>"블록체인 무엇인가?"</strong>를 소개합니다.</h1>
             <p>
                 <strong>아마존 네트워크 분야 베스트셀러 1위! <br>전 세계 사람들이 가장 주목하는 블록체인 입문서, 드디어 국내 상륙!</strong><br><br>
 

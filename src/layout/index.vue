@@ -1,20 +1,20 @@
 <template>
-  <section id="wrap">
-    <h1 class="blind">이지스퍼블리싱 홈페이지</h1>
-    <Header />
-    <Container />
-    <Footer />
-  </section>
+    <section id="wrap">
+        <h1 class="blind">웹사이트 제목</h1>
+        <Header />
+        <section id="container">
+            <router-view /> <!-- 각 메뉴에 따라 변경할 컴포넌트 영역의 라우터 태그 -->
+        </section>
+        <Footer />
+    </section>
 </template>
 <script>
-import Container from "./components/Container.vue"
-import Header from "./components/Header.vue"
-import Footer  from "./components/Footer.vue"
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 export default {
-  components:{
-    Container,
-    Header,
-    Footer
-  }
-}
+    components: {
+        Header,
+        Footer,
+    },
+};
 </script>

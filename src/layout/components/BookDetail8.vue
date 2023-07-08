@@ -32,7 +32,7 @@
         </div>
         <template v-if="tapselect=='introduce'">
           <div class="detailTapCon">
-            <h1 class="tapcontit"><strong>"일 잘하는 디자이너"</strong>를 소개 합니다.</h1>
+            <h1 class="tapcontit"><strong>"일 잘하는 디자이너"</strong>를 소개합니다.</h1>
             <p>
               <strong>클라이언트 설득부터 타이포그래피, 색상 선택, 면접 준비까지!<br>‘일 잘하는 디자이너’가 되는 69가지 방법으로 자신을 지키면서 일하세요!<br><br></strong>
 
